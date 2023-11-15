@@ -36,6 +36,7 @@ a
 
 .child-header
 {
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -514,7 +515,8 @@ a
     font-size: 26px;
     position: absolute;
     z-index: 10;  
-    margin-top: 10px;  
+    margin-top: 15px; 
+    margin-left: 0px; 
 }
 input:focus
 {
@@ -1040,14 +1042,115 @@ input:focus
 }
 
 
+/* footer styles */
+footer
+{
+    margin-top: 70px;
+    display: flex; 
+}
+footer .logo .icons
+{
+    display: flex;
+    gap: 10px;
+    margin-top: 34px;
+}
+footer .logo .icons a:first-child
+{
+    border: 1px solid #00C97B;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #00C97B;
+    cursor: pointer;
+}
+footer .logo .icons a:nth-child(2)
+{
+    border: 1px solid #5B52A3;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #5B52A3;
+    cursor: pointer;
+}
+footer .logo .icons a:last-child
+{
+    border: 1px solid #40B8EA;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #40B8EA;
+    cursor: pointer;
+}
 
+footer .block 
+{
+    display: flex;
+}
+footer .block .card1
+{
+    margin-left: 166px;
+}
+footer .block .card2
+{
+    margin-left: 149px;
+}
+footer .block .card3
+{
+    margin-left: 217px;
+}
+footer .block .card a
+{
+    display: block;
+}
 
+footer .block .card b
+{
+    color: var(--1, #1F2428);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+    display: inline-block;
+}
+footer .block .card a
+{
+    color: var(--1, #1F2428);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    margin-top: 10px;
+    width: 100%;
+}
+footer .block .card a:hover
+{
+    color: #40B8EA;
+}
+hr
+{
+    margin-top: 55px;
+}
 
-
-
-
-
-
+.footer-p
+{
+    margin-top: 36px;
+    color: var(--1, #1F2428);
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 153.846% */
+    margin-bottom: 33px;
+}
 
 
 
