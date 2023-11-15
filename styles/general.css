@@ -914,7 +914,130 @@ input:focus
     margin-top: 16px;
     margin-right: 15px;
 }
+.blogers button
+{
+    width: 240px;
+    height: 66px;
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
 
+    color: var(--1, #FFF);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 105.882% */
+    border: none;
+    margin-top: 40px;
+}
+.blogers button:hover
+{
+    background: #fff;
+    color: #40B8EA;
+    cursor: pointer;
+}
+
+/* SHOPPING STYLES */
+
+.shopping
+{
+    margin-top: 150px;
+
+}
+.shopping h2
+{
+    color: var(--1, #1F2428);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 127.273% */
+}
+.shopping p
+{
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 36px; /* 200% */
+    margin-top: 20px;
+    width: 1400px;
+}
+
+/* Contact email styles */
+
+.contact
+{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    padding: 64px 200px;
+    height: 250px;
+    border-radius: 36px;
+    background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);    
+}
+
+.contact h2
+{
+    width: 482px;
+    color: var(--4, #FFF);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 133.333% */
+}
+.contact label
+{
+    margin-left:  114px;
+}
+.contact label input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 513px;
+    padding-left: 40px;
+    position: relative;
+    padding-bottom: 23px;
+    padding-right: 30px;
+    color: white;
+    font-size: 16px;
+}
+.contact .icon
+{
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -3px;
+}
+.contact label input::placeholder
+{
+    color: white;
+    margin-top: 0px;
+}
+.contact button
+{
+    margin-left: 51px;
+    width: 240px;
+    height: 66px;
+    border: none;
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+
+    color: var(--1, #FFF);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 105.882% */
+    transition: all 0.5s;
+}
+.contact button:hover
+{
+    background: white;
+    color: #40B8EA;
+    cursor: pointer;
+}
 
 
 
