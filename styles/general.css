@@ -766,9 +766,74 @@ input:focus
 }
 
 
+/* Klient rossiya styles */
 
+.klient-rossia
+{
+    margin-top: 150px;
+}
+.klient-rossia .klient__text h2
+{
+    width: 964px;
+    color: var(--1, #1F2428);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 127.273% */
+}
 
+.klient-rossia .klient__text p{
+    width: 604px;
+    color: var(--1, #1F2428);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 180% */
+    margin-bottom: 40px;
+}
 
+.klient-rossia .block
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.klient-rossia .block .block__card
+{
+    cursor: pointer;
+    padding-top: 35px;
+    padding-left: 37px;
+    width: 447px;
+    height: 250px;
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+.klient-rossia .block .block__card img
+{
+    width: 52px;
+    height: 52px;
+    margin-bottom: 30px;    
+}
+
+.klient-rossia .block .block__card .text b
+{
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+    margin-bottom: 10px;
+}
+
+.klient-rossia .block .block__card .text p{    
+    width: 363px;
+    color: var(--1, #1F2428);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 162.5% */
+}
 
 
 
